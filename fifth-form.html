@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram </title>
+</head>
+<style>
+*{
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+margin: 10px 10px 0 10px;
+text-decoration: none;
+color: black;
+}
+.all{
+    display: flex;
+}
+@media (max-width: 920px) {
+  /* CSS rules for screens with a maximum width of 600px */
+.back-img{
+    visibility: hidden;
+    width: 1px;
+}
+}
+@media (max-width: 920px) {
+  /* CSS rules for screens with a maximum width of 600px */
+.form{
+margin:40%;
+
+}
+}
+
+.back-img{
+display: flex;
+flex-wrap: wrap;
+       flex-direction: column;
+}
+
+.background{
+    width: 400px;
+    margin: 0 20% 20% 20%; 
+    
+}
+
+.form{
+    margin:3% 10% 10% 10%;
+    width: auto;
+        height: 500px;
+        background-color: white;
+        
+}
+.main-form{
+text-align: center;
+border: 1px solid #dbdbdb;
+border-radius: 2px;
+padding: 15px;
+
+}
+.img{
+    width: 180px;
+margin-bottom: 20px;
+}
+
+input{font-size: 11px;
+height: 33px;
+width: 250px;
+padding-left:10px;
+background-color: #fafafa;
+border: 0;
+border: 1px solid #dbdbdb;
+margin-top: -13px;
+margin-bottom: 5px;
+border-radius: 2px;
+
+}
+.input:hover{
+    border: 1px solid #dbdbdb;
+}
+.btn{
+    width: 266px;
+    height:33px;
+   
+ outline: none;
+ border: 0;
+ border-radius: 5px;
+  background-color:#4bb4f8 ;
+  color: white;
+  font-weight: bold;
+cursor: pointer;
+}
+.btn:hover {background-color: #0094f68c;
+    transition:all .4s ease;
+} 
+p{
+    font-size: small;
+    color: #5a5959;
+    background-color: white;
+    
+}
+.one{margin-left: 30px;
+    margin-top: -10px;
+    width: calc(80%/2.5);
+}
+.two{
+    margin-left: 190px;
+    margin-top: -2px;
+    width: calc(80%/2.5);
+}
+p,hr{
+    margin-top: 20px;
+    color: #5a5959;
+}
+.facebook{
+    width: 15px;
+    cursor: pointer;
+}
+.log{
+    font-size: small;
+    font-weight: bold;
+    color: #21336c;
+    margin-bottom: 10px;
+   
+}
+.forgot {
+    font-size:smaller;
+    color: #21336c;
+
+}
+.account{
+    font-size: small;
+}
+.sign{
+    font-size: small;
+    color: #0095f6;
+    font-weight: bold;
+}
+</style>
+<body>
+    <div class="all">
+        <div class="back-img">
+            <img src="img/WhatsApp Image 2023-09-05 at 19.47.29.jpg" alt="" class="background">
+        </div>
+    <div class="form">
+        <form class="main-form">
+        <div class="heading">
+            <img class="img" src="img/insta2.jpg" alt="" >
+        </div>
+       <div >
+        <p class="input-control">
+         <input type="email" type="tel" placeholder="Phone number ,username, or email">
+        </p>
+    </div>
+    <div><p class="input-control">
+         <input type="password" placeholder="password"></p>
+    </div>
+    <button class="btn">Log in</button>
+   <p class="or">OR</p><hr class="one"><hr class="two">
+
+   <div>
+    <img src="img/face.jpg" alt="" class="facebook">
+    <a href="#" class="log">Log in with Facebook</a>
+</div>
+ <div><a href="#" class="forgot">Forgot PAssword ?</a></div>
+</form>
+<form class="main-form 1">
+    <div class="account">Don't have an account?<a href="#" class="sign">Sign Up</a></div>
+</form>
+
+ </div></div>
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
